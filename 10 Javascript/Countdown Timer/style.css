@@ -1,0 +1,47 @@
+
+* {
+  font-family: pop;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body{
+  background-image: url(img/bg.jpg);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 3rem;
+  margin-top: -5rem;
+  letter-spacing: 10px;
+}
+
+.countdown-con{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.big-text{
+  font-size: 4rem;
+  line-height: 1;
+  margin: 0 2rem;
+  font-weight: 500;
+ font-family: Bahnschrift;
+  color: brown;
+}
+
+.con{
+  text-align: center;
+}
+
+
